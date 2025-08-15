@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Inside space */
+    border: 3px solid #388E3C; /* Visible border for Box Model */
+    margin-bottom: 20px; /* Space outside */
+}
+
+/* Section styling */
+.section {
+    background-color: #fff;
+    border: 2px solid #ddd; /* Box Model border */
+    padding: 15px; /* Inside spacing */
+    margin-bottom: 15px; /* Outside spacing */
+}
+
+/* Headings inside sections */
+.section h2 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+/* Paragraphs */
+.section p {
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #388E3C;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #388E3C;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #eee;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+}
